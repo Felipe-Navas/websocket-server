@@ -24,6 +24,7 @@ This README would normally document whatever steps are necessary to get your app
     * "cors": "^2.8.5",
     * "dotenv": "^10.0.0",
     * "express": "^4.17.1",
+    * "socket.io": "^4.3.2"
 
 ### Contribution guidelines ###
 
