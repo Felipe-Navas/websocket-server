@@ -39,5 +39,6 @@ btnEnviar.addEventListener( 'click', () => {
 // Escucho el evento que viene desde el servidor
 socket.on('enviar-mensaje-servidor', (payload) => {
 
-    txtMensaje.value = payload.mensaje;
+    console.log(payload);
+    // txtMensaje.value = payload.mensaje;
 });
